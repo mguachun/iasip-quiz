@@ -1,18 +1,46 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# It's Always Sunny Quiz
 
-Currently, two official plugins are available:
+Test your knowledge of It's Always Sunny in Philadelphia with this quiz. Answer 20 multiple choice questions to test your trivia knowledge and find out how much you truly know about It's Always Sunny in Philadelphia. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Created with Vite, React, and CSS. 
 
-## React Compiler
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Prerequisites:
+Make sure you have the following installed:
 
-Note: This will impact Vite dev & build performances.
+Node.js (version 16+ recommended)
 
-## Expanding the ESLint configuration
+npm
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Clone the repository
+
+```bash
+  git clone https://github.com/mguachun/iasip-quiz
+  cd iasip-quiz
+
+```
+Navigate to the localhost available in your terminal
+
+## Install Dependencies 
+
+```bash
+  npm install
+```
+
+## Start the Development Server
+
+To locally run this project run
+
+```bash
+  npm run dev
+```
+Navigate to the localhost available in your terminal
+
+## Scripts:
+
+```bash
+npm run dev     # Start dev server
+npm run build   # Build production bundle
+npm run preview # Preview production
+```
