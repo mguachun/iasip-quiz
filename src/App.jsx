@@ -14,7 +14,7 @@ const App = () => {
   const [score, setScore] = useState(0);
   const [quizEnd, setQuizEnd] = useState(false);
 
-  // Handle option selection
+
   const handleOptionChange = (e) => {
     setSelectedOption(e.target.value);
   };
